@@ -1,0 +1,15 @@
+{
+  "neodev": {
+    "library": {
+      "plugins": [
+        "mini.nvim"
+      ]
+    }
+  },
+  "lspconfig": {
+    "lua_ls": {
+      "Lua.runtime.version": "LuaJIT",
+      "Lua.workspace.checkThirdParty": false
+    }
+  }
+}
