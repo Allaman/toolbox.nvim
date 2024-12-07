@@ -1,6 +1,8 @@
 local M = {}
 local msg = require("toolbox.msg")
 
+vim.uv = vim.uv or vim.loop -- Neovim 0.9 compatibility
+
 local function write(path, content, flags, mode)
   local fd = vim.uv.fs_open(path, flags, mode)
   if fd == nil then

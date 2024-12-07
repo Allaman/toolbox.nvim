@@ -1,5 +1,7 @@
 local M = {}
 
+vim.uv = vim.uv or vim.loop
+
 ---returns OS dependant path separator
 ---@return string
 M.path_separator = function()
