@@ -1,4 +1,4 @@
-local utils = require("utils.utils")
+local utils = require("toolbox.utils")
 
 local eq = MiniTest.expect.equality
 

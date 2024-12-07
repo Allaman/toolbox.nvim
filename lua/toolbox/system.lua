@@ -1,5 +1,5 @@
 local M = {}
-local msg = require("utils.msg")
+local msg = require("toolbox.msg")
 
 ---checks if a executable is available
 ---@param executable string

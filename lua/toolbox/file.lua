@@ -1,5 +1,5 @@
 local M = {}
-local msg = require("utils.msg")
+local msg = require("toolbox.msg")
 
 local function write(path, content, flags, mode)
   local fd = vim.uv.fs_open(path, flags, mode)

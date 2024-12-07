@@ -1,4 +1,4 @@
-local sys = require("utils.system")
+local sys = require("toolbox.system")
 
 local eq = MiniTest.expect.equality
 
